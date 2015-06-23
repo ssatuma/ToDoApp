@@ -14,6 +14,8 @@
 		4EA6F63D1B39683900575E6B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6F63C1B39683900575E6B /* Images.xcassets */; };
 		4EA6F6401B39683900575E6B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4EA6F63E1B39683900575E6B /* LaunchScreen.xib */; };
 		4EA6F64C1B39683900575E6B /* ToDoAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6F64B1B39683900575E6B /* ToDoAppTests.swift */; };
+		4EA6F6561B397A3D00575E6B /* TaskCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6F6551B397A3D00575E6B /* TaskCreateViewController.swift */; };
+		4EA6F65A1B397F0500575E6B /* ToDo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EA6F6591B397F0500575E6B /* ToDo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +40,8 @@
 		4EA6F6451B39683900575E6B /* ToDoAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ToDoAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4EA6F64A1B39683900575E6B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4EA6F64B1B39683900575E6B /* ToDoAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoAppTests.swift; sourceTree = "<group>"; };
+		4EA6F6551B397A3D00575E6B /* TaskCreateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCreateViewController.swift; sourceTree = "<group>"; };
+		4EA6F6591B397F0500575E6B /* ToDo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToDo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,9 +86,11 @@
 				4EA6F6321B39683900575E6B /* AppDelegate.swift */,
 				4EA6F6371B39683900575E6B /* ViewController.swift */,
 				4EA6F6391B39683900575E6B /* Main.storyboard */,
+				4EA6F6551B397A3D00575E6B /* TaskCreateViewController.swift */,
 				4EA6F63C1B39683900575E6B /* Images.xcassets */,
 				4EA6F63E1B39683900575E6B /* LaunchScreen.xib */,
 				4EA6F6341B39683900575E6B /* ToDoApp.xcdatamodeld */,
+				4EA6F6591B397F0500575E6B /* ToDo.swift */,
 				4EA6F6301B39683900575E6B /* Supporting Files */,
 			);
 			path = ToDoApp;
@@ -216,8 +222,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				4EA6F6381B39683900575E6B /* ViewController.swift in Sources */,
+				4EA6F65A1B397F0500575E6B /* ToDo.swift in Sources */,
 				4EA6F6331B39683900575E6B /* AppDelegate.swift in Sources */,
 				4EA6F6361B39683900575E6B /* ToDoApp.xcdatamodeld in Sources */,
+				4EA6F6561B397A3D00575E6B /* TaskCreateViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
