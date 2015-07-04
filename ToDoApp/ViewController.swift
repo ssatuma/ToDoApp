@@ -81,7 +81,9 @@ class ViewController: UITableViewController, UITableViewDelegate, UITableViewDat
     override func viewDidAppear(animated: Bool) {
         readData()
     }
-    
+    override func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return myItems.count
+    }
 
 }
 
